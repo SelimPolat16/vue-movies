@@ -6,7 +6,7 @@
 	<form  @submit.prevent="SearchMovies()"  class="search-box">
 			<input type="search"
 			class="search-field"
-			placeholder="Search for an movies..."
+			placeholder="Search for a movie..."
 			required
 			v-model="search"
 		  />
